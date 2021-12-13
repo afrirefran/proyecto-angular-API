@@ -1,0 +1,22 @@
+<div class="row text-center">
+  <div class="col text-center">
+
+    <div *ngFor="let arrayTests of arrayTest" class="card" style="width: 18rem;">
+      <div *ngIf="arrayTests.top" style="background-color: greenyellow; color: white; height: 0.5rem; width: 100%;">TOP</div>
+      <img [src]="arrayTests.img" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{arrayTests.name}}</h5>
+        <p class="card-text">{{arrayTests.description}}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4 col-12" style="background-color: red; height: 5rem; width: 100%;"></div>
+  <div class="col-sm-4 col-12" style="background-color: blue; height: 5rem; width: 100%;"></div>
+  <div class="col-sm-4 col-12" style="background-color: greenyellow; height: 5rem; width: 100%;"></div>
+</div>
+
