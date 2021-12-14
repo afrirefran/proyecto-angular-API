@@ -8,6 +8,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MovieComponent } from './components/home/movie/movie.component';
+import { SeriesComponent } from './series/series.component';
+
+
 
 
 
@@ -19,6 +22,7 @@ import { MovieComponent } from './components/home/movie/movie.component';
     HomeComponent,
     FooterComponent,
     MovieComponent,
+    SeriesComponent,
   ],
 
   imports: [
