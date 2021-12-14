@@ -1,3 +1,30 @@
-:host {
-  height: 10vh;
+/*FOOTER*/
+
+/*ICONOS FOOTER*/
+.pie_pagina {
+  width: 100%;
 }
+
+
+
+
+.fa-instagram {
+  color: white;
+}
+
+
+.fa-linkedin {
+  color: white;
+}
+
+
+.fa-twitter {
+  color: white;
+}
+
+
+.fa-facebook-square {
+  color: white;
+}
+/*FIN ICONOS FOOTER*/
+/*FIN FOOTER*/
