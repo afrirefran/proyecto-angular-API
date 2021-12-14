@@ -2,11 +2,24 @@
 
 /*ICONOS FOOTER*/
 .pie_pagina {
+  color: rgb(204, 201, 201);
   width: 100%;
 }
 
 
 
+
+.logo {
+  width: 9rem;
+  height: 8rem;
+  margin-top: 1.5rem;
+}
+
+.red-social {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
 
 .fa-instagram {
   color: white;
