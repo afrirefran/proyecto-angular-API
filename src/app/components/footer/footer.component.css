@@ -1,43 +1,154 @@
 /*FOOTER*/
+.hr {
+  color: white;
+  margin-top: 3rem;
+
+}
 
 /*ICONOS FOOTER*/
+
+h5 {
+  margin-bottom: 1.5rem;
+}
 .pie_pagina {
-  color: rgb(204, 201, 201);
+  color: white;
+  opacity: 0.5;
   width: 100%;
+}
+
+
+.grupo_1 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 
 
 
 .logo {
-  width: 9rem;
-  height: 8rem;
-  margin-top: 1.5rem;
+  width: 12rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+
 }
+
+@media (max-width: 991px) {
+  .logo {
+    width: 6rem;
+    height: 6rem;
+    margin-top: 3rem;
+
+  }
+
+}
+
+@media (max-width: 565px) {
+  .logo {
+    width: 10rem;
+    height: 8rem;
+    margin-top: 0;
+
+  }
+
+}
+
+@media (max-width: 565px) {
+  .box1 {
+    display: flex;
+    justify-content: center;
+
+
+
+  }
+}
+
+@media (max-width: 565px) {
+  .box2 {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+}
+
 
 .red-social {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 2rem;
+
 }
+
+@media (max-width: 767px){
+  .box4 {
+    margin-top: 4rem;
+  }
+}
+
 
 .fa-instagram {
   color: white;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-decoration:none;
+
 }
 
+.fa-instagram:hover {
+  background-color: rgb(95, 95, 95);
+  transition: all 0.5s;
+
+}
 
 .fa-linkedin {
   color: white;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-decoration:none;
+}
+
+.fa-linkedin:hover {
+  background-color: rgb(95, 95, 95);
+  transition: all 0.5s;
+
 }
 
 
 .fa-twitter {
   color: white;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-decoration:none;
+}
+
+.fa-twitter:hover {
+  background-color: rgb(95, 95, 95);
+  transition: all 0.5s;
+
 }
 
 
 .fa-facebook-square {
   color: white;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-decoration:none;
+
+}
+
+.fa-facebook-square:hover {
+  background-color: rgb(95, 95, 95);
+  transition: all 0.5s;
 }
 /*FIN ICONOS FOOTER*/
+
+
+.grupo-2 {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+
+
+
+
+}
 /*FIN FOOTER*/
