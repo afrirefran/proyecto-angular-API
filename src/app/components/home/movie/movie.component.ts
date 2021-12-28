@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { CharacterService } from 'src/app/services/character.service';
 @Component({
   selector: 'app-movie',
   templateUrl: './movie.component.html',
@@ -7,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MovieComponent implements OnInit {
 
-  arrayTest: any[] = [
+  characters:any = null;
+  constructor(private characterService:CharacterService) { }
+  ngOnInit(){
+    this.characterService.retornar()
+      .subscribe( result =>  this.characters = result)
+  }
+}
+
+  /*arrayTest: any[] = [
     {
       name: 'Spiderman',
       top: false,
@@ -40,5 +48,4 @@ export class MovieComponent implements OnInit {
   ngOnInit(): void {
     console.log(this.arrayTest)
   }
-
-}
+}*/

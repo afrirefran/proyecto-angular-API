@@ -1,19 +1,15 @@
 /*FOOTER*/
-.hr {
-  color: white;
-  margin-top: 3rem;
-
-}
-
-/*ICONOS FOOTER*/
-
-h5 {
-  margin-bottom: 1.5rem;
-}
 .pie_pagina {
   color: white;
   opacity: 0.5;
   width: 100%;
+  background-color: rgb(19, 18, 18);
+}
+
+
+.hr {
+  color: white;
+  margin-top: 3rem;
 }
 
 
@@ -23,45 +19,37 @@ h5 {
 }
 
 
+@media (max-width: 565px) {
+  .box1 {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 
 .logo {
   width: 12rem;
-  height: 10rem;
-  display: flex;
-  justify-content: center;
-
+  height: 9rem;
 }
+
 
 @media (max-width: 991px) {
   .logo {
     width: 6rem;
     height: 6rem;
     margin-top: 3rem;
-
   }
-
 }
+
 
 @media (max-width: 565px) {
   .logo {
     width: 10rem;
     height: 8rem;
     margin-top: 0;
-
-  }
-
-}
-
-@media (max-width: 565px) {
-  .box1 {
-    display: flex;
-    justify-content: center;
-
-
-
   }
 }
+
 
 @media (max-width: 565px) {
   .box2 {
@@ -71,11 +59,10 @@ h5 {
 }
 
 
-.red-social {
-  display: flex;
-  justify-content: space-evenly;
-
+h5 {
+  margin-bottom: 1.5rem;
 }
+
 
 @media (max-width: 767px){
   .box4 {
@@ -84,19 +71,25 @@ h5 {
 }
 
 
+.red-social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
 .fa-instagram {
   color: white;
   padding: 0.5rem;
   font-size: 1.5rem;
   text-decoration:none;
-
 }
+
 
 .fa-instagram:hover {
   background-color: rgb(95, 95, 95);
   transition: all 0.5s;
-
 }
+
 
 .fa-linkedin {
   color: white;
@@ -105,10 +98,10 @@ h5 {
   text-decoration:none;
 }
 
+
 .fa-linkedin:hover {
   background-color: rgb(95, 95, 95);
   transition: all 0.5s;
-
 }
 
 
@@ -119,10 +112,10 @@ h5 {
   text-decoration:none;
 }
 
+
 .fa-twitter:hover {
   background-color: rgb(95, 95, 95);
   transition: all 0.5s;
-
 }
 
 
@@ -131,24 +124,20 @@ h5 {
   padding: 0.5rem;
   font-size: 1.5rem;
   text-decoration:none;
-
 }
+
 
 .fa-facebook-square:hover {
   background-color: rgb(95, 95, 95);
   transition: all 0.5s;
 }
-/*FIN ICONOS FOOTER*/
 
 
 .grupo-2 {
-  background-color: rgb(37, 37, 37);
+  background-color: black;
   display: flex;
   justify-content: center;
   padding: 1rem 0;
-
-
-
-
 }
+
 /*FIN FOOTER*/

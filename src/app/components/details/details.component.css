@@ -1,0 +1,41 @@
+*{
+  color: antiquewhite;
+}
+
+
+.details {
+  padding-top: 12rem;
+  background-color: rgb(49, 49, 49);
+  padding-bottom: 7rem;
+
+}
+
+@media (max-width: 575px) {
+  .details {
+
+  }
+}
+
+
+.votos {
+  color: #f38b18;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.fa-star {
+  padding-left: 0.5rem;
+}
+
+
+.fa-star:hover {
+  color: #f38b18;
+}
+
+
+.fa-star:focus {
+  color: #f38b18;
+}
+
+

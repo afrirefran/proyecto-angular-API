@@ -1,17 +1,46 @@
-<div class="row text-center">
-  <div class="col text-center">
+<div class="container-fluid home">
+  <div>
+    <h5 class="pel"><u>PELÍCULAS</u></h5>
+  </div>
 
-    <div *ngFor="let arrayTests of arrayTest" class="card" style="width: 18rem;">
-      <div *ngIf="arrayTests.top" style="background-color: greenyellow; color: white; height: 0.5rem; width: 100%;">TOP</div>
-      <img [src]="arrayTests.img" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">{{arrayTests.name}}</h5>
-        <p class="card-text">{{arrayTests.description}}</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div>
+      <div class="input-group mb-3">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Género:</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Acción</a></li>
+          <li><a class="dropdown-item" href="#">Aventura</a></li>
+          <li><a class="dropdown-item" href="#">Fantasía</a></li>
+        </ul>
       </div>
     </div>
+</div>
 
+<!-- <p style="background-color: white;">{{characters | json }}</p> -->
+<div class="row">
+  <div *ngFor="let character of characters.results" class="card peliculas col-3 text-center" style="width: 19rem; color:white; background-color: black;">
+  <!-- <div *ngIf="character.top" style="background-color: #f38b18; color: black; height: 2rem; width: 100%;"><b>TOP</b>
+  </div> -->
+    <img src="https://image.tmdb.org/t/p/w300{{character.poster_path}}" class="card-img-top" alt="...">
+    <div class="card-body" style="background-color: black;">
+      <h5 class="card-title">{{character.original_title}}</h5>
+      <!-- <--!<p class="card-text">{{character.overview}}</p>-->
+      <a routerLink= "details" class="btn btn-primary ver-mas">Ver más</a>
+    </div>
   </div>
 </div>
 
 
+<!--
+<div class="row">
+  <div *ngFor="let arrayTests of arrayTest" class="card peliculas col-3 text-center" style="width: 19rem; color:white; background-color: black;">
+  <div *ngIf="arrayTests.top" style="background-color: #f38b18; color: black; height: 2rem; width: 100%;"><b>TOP</b>
+  </div>
+    <img [src]="arrayTests.img" class="card-img-top" alt="...">
+    <div class="card-body" style="background-color: black;">
+      <h5 class="card-title">{{arrayTests.name}}</h5>
+      <p class="card-text">{{arrayTests.description}}</p>
+      <a routerLink= "details" class="btn btn-primary ver-mas">Ver más</a>
+    </div>
+  </div>
+</div>
+-->

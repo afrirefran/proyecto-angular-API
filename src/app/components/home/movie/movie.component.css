@@ -1,0 +1,62 @@
+
+.home {
+  margin-top: 11rem;
+  margin-bottom: 3.5rem;
+}
+
+
+.pel {
+  color: #f38b18;
+  margin-left: 1.5rem;
+  font-size: 1.7rem;
+  opacity: 0.7;
+  letter-spacing: 0.2rem;
+}
+
+
+@media (max-width: 420px) {
+  .pel {
+    font-size: 1.1rem;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .pel {
+    font-size: 1.3rem;
+    letter-spacing: 0rem;
+  }
+}
+
+
+.dropdown-toggle {
+  background-color: #f38b18;
+  color: black;
+  padding-left: 2.65rem;
+  padding-right: 2.65rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+
+@media (max-width: 575px) {
+  .dropdown-toggle {
+    font-size: 14px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+}
+
+
+.peliculas {
+  margin-right: 0;
+}
+
+
+.ver-mas {
+  background-color: #f5a64c;
+  color: black;
+}
+
+
+

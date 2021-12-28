@@ -6,3 +6,37 @@
 body {
   background-color: black;
 }
+
+.btn-primary:focus {
+  border-color: #e27b06;
+}
+
+.btn-primary {
+  border-color: #e27b06;
+}
+
+.btn-primary:hover{
+  border-color: #e27b06;
+  font-weight: bold;
+}
+
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+ .btn-outline-secondary:hover, .btn-outline-secondary:focus {
+  background-color: #e27b06;
+  color: black;
+  border-color: #e27b06;
+ }
+
+
+ .btn-check:active+.btn-outline-secondary, .btn-check:checked+.btn-outline-secondary, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show, .btn-outline-secondary:active {
+  color: black;
+  background-color: #e27b06;
+  border-color: #e27b06;
+  font-weight: bold;
+ }
