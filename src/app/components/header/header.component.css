@@ -30,6 +30,12 @@
 }
 
 
+.form-control:focus{
+  box-shadow: none;
+  border-color: grey;
+}
+
+
 .buscador {
     background-color: rgb(14, 13, 13);
     color: rgba(0,0,0,.87);
@@ -44,51 +50,6 @@
  .buscador {
    padding-right: 2rem;
  }
-}
-
-
-.form-control:focus{
-  box-shadow: none;
-  border-color: grey;
-}
-
-
-.fa-star {
-  font-size: 1.5rem;
-  margin-right: 0.6rem;
-}
-
-
-@media (max-width: 750px) {
-  .fa-star {
-    font-size: 1rem;
-  }
-}
-
-
-.populares {
-  background-color: #f38b18;
-  height: 2rem;
-  color:black;
-  width: 14rem;
-  padding-bottom: 1.7rem;
-  padding-top: 0.1rem;
-}
-
-
-@media (max-width: 750px) {
-  .populares {
-    width: 10rem;
-    font-size: 14px;
-  }
-}
-
-
-@media (max-width: 360px) {
-  .populares {
-    width: 10rem;
-    font-size: 13px;
-  }
 }
 
 

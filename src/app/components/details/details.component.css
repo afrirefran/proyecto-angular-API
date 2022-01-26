@@ -10,12 +10,10 @@
 
 }
 
-@media (max-width: 575px) {
-  .details {
+.imagen {
+  width: 100%;
 
-  }
 }
-
 
 .votos {
   color: #f38b18;
