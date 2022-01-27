@@ -12,4 +12,4 @@ En la parte central, he incluído 20 películas y un botón en la parte superior
 
 En cada película tenemos la opción de clicar en el botón "Ver más", donde se podrán ver detalles de cada película como: imagen principal, título, género, número de votos y descripción.
 
-He adaptado la app a todos los dispositivos, aunque en la parte central derecha me aparece un margen mayor que en la parte izquierda, que tampoco he podido solucionar.
+He adaptado la app a todos los dispositivos, aunque en la parte central derecha me aparece un margen mayor que en la parte izquierda, que tampoco he podido solucionar. En la página de "details" no he conseguido adaptar a pantallas mas pequeñas el recuadro naranja del número de votos.
