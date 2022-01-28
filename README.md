@@ -6,10 +6,9 @@ He utilizado tonos naranjas y negros para mi App Web.
 El color naranja porque es alegre y llamativo, además transmite calidez y éxito.
 El color negro de fondo transmite elegancia y sofisticación.
 
-En esta app he creado un header con un buscador, aunque meramente decorativo, ya que no he conseguido aplicarle la lógica necesaria para buscar por el nombre cada película.
+En esta app he creado un header con un buscador, aunque meramente decorativo.
 
 En la parte central, he incluído 20 películas y un botón en la parte superior izquierda, en el que si clicamos, nos aparecen las películas más populares en la parte inferior de la página (no he conseguido que al clicar te lleve directamente a la parte inferior de la página, por lo que hay que clicar el botón y manualmente con el scroll ir hasta el final de la página para ver las "más populares").
 
 En cada película tenemos la opción de clicar en el botón "Ver más", donde se podrán ver detalles de cada película como: imagen principal, título, género, número de votos y descripción.
 
-He adaptado la app a todos los dispositivos, aunque en la parte central derecha me aparece un margen mayor que en la parte izquierda, que tampoco he podido solucionar. En la página de "details" no he conseguido adaptar a pantallas mas pequeñas el recuadro naranja del número de votos.
